@@ -152,7 +152,7 @@ export default function FaqSection() {
         >
           <h3 className="mb-2 text-2xl font-semibold text-foreground">Still have questions?</h3>
           <p className="mb-8 text-foreground/60">Our team is ready to help you discover how Xsis can transform your business operations.</p>
-          <a href="#" className="inline-block rounded-full bg-red-600 px-8 py-3.5 text-sm font-bold text-white transition-all hover:scale-105 hover:bg-red-500 active:scale-95 shadow-[0_0_20px_rgba(220,38,38,0.4)]">
+          <a href="#contact" className="inline-block rounded-full bg-red-600 px-8 py-3.5 text-sm font-bold text-white transition-all hover:scale-105 hover:bg-red-500 active:scale-95 shadow-[0_0_20px_rgba(220,38,38,0.4)]">
             Contact Us & Request Demo
           </a>
         </motion.div>

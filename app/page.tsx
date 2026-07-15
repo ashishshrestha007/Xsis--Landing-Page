@@ -32,9 +32,9 @@ export default function Home() {
 
         {/* CTA - Right */}
         <div className="flex items-center gap-4">
-          <button className="rounded-full border border-red-500 bg-red-600 px-5 py-2 text-xs font-medium text-white transition-all hover:bg-red-500 shadow-[0_0_15px_rgba(220,38,38,0.4)]">
+          <a href="#contact" className="rounded-full border border-red-500 bg-red-600 px-5 py-2 text-xs font-medium text-white transition-all hover:bg-red-500 shadow-[0_0_15px_rgba(220,38,38,0.4)]">
             Request Demo
-          </button>
+          </a>
         </div>
       </nav>
 
