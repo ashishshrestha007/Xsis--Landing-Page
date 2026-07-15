@@ -22,6 +22,12 @@ export default function Home() {
           <a href="#features" className="text-xs uppercase tracking-widest text-white/50 transition-colors hover:text-white">
             Features
           </a>
+          <a href="#ai-billing" className="text-xs uppercase tracking-widest text-white/50 transition-colors hover:text-white">
+            AI Billing
+          </a>
+          <a href="#core-features" className="text-xs uppercase tracking-widest text-white/50 transition-colors hover:text-white">
+            Core
+          </a>
           <a href="#story" className="text-xs uppercase tracking-widest text-white/50 transition-colors hover:text-white">
             Story
           </a>
@@ -47,10 +53,14 @@ export default function Home() {
       </div>
 
       {/* New AI Billing Animated Section */}
-      <AiBillingSection />
+      <div id="ai-billing">
+        <AiBillingSection />
+      </div>
 
       {/* Animated Core Features Section */}
-      <CoreFeatures />
+      <div id="core-features">
+        <CoreFeatures />
+      </div>
 
       {/* FAQ Section */}
       <div id="faq">
